@@ -1,0 +1,11 @@
+CRITICAL - 2024-05-05 12:43:18 --> ErrorException: Undefined variable $db
+[Method: GET, Route: signals]
+in APPPATH\Controllers\Signal.php on line 9.
+ 1 APPPATH\Controllers\Signal.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'O:\\xampp\\htdocs\\ciprojects\\app\\Controllers\\Signal.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Signal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Signal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('O:\\xampp\\htdocs\\ciprojects\\public\\index.php')
